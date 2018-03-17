@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contacts</key>
+	<string>Wangyong</string>
+	<key>companyName</key>
+	<string>Newace</string>
+	<key>companyID</key>
+	<integer>100</integer>
+	<key>address</key>
+	<string>Luohu Chunfeng Looad</string>
+	<key>postal</key>
+	<string>518000</string>
+	<key>phone</key>
+	<string>123456</string>
+	<key>department</key>
+	<dict>
+		<key>name</key>
+		<string>development department</string>
+		<key>contacts</key>
+		<string>hepengfei</string>
+	</dict>
+	<key>subCompanies</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Newace-A</string>
+			<key>phone</key>
+			<string>112233</string>
+			<key>address</key>
+			<string>Lushan Hotel 18A</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Newace-B</string>
+			<key>phone</key>
+			<string>445566</string>
+			<key>address</key>
+			<string>Lushan Hotel 18B</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Newace-C</string>
+			<key>phone</key>
+			<string>778899</string>
+			<key>address</key>
+			<string>Lushan Hotel 18C</string>
+		</dict>
+	</array>
+</dict>
+</plist>

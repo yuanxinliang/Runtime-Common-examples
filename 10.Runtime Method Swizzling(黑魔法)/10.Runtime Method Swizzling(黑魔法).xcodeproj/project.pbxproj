@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59046EED1F010DD00080366C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046EEC1F010DD00080366C /* main.m */; };
+		59046EF01F010DD00080366C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046EEF1F010DD00080366C /* AppDelegate.m */; };
+		59046EF31F010DD00080366C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046EF21F010DD00080366C /* ViewController.m */; };
+		59046EF61F010DD00080366C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59046EF41F010DD00080366C /* Main.storyboard */; };
+		59046EF81F010DD00080366C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59046EF71F010DD00080366C /* Assets.xcassets */; };
+		59046EFB1F010DD00080366C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59046EF91F010DD00080366C /* LaunchScreen.storyboard */; };
+		59046F041F010E1D0080366C /* NSObject+YXLMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F031F010E1D0080366C /* NSObject+YXLMethodSwizzling.m */; };
+		59046F071F01EAD20080366C /* UIViewController+YXLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F061F01EAD20080366C /* UIViewController+YXLExtension.m */; };
+		59046F0A1F01EBF20080366C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F091F01EBF20080366C /* FirstViewController.m */; };
+		59046F101F01F0290080366C /* NSMutableArray+YXLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F0F1F01F0290080366C /* NSMutableArray+YXLSwizzling.m */; };
+		59046F131F0203550080366C /* UIButton+YXLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F121F0203550080366C /* UIButton+YXLSwizzling.m */; };
+		59046F161F0213B80080366C /* UILabel+YXLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F151F0213B80080366C /* UILabel+YXLSwizzling.m */; };
+		59046F191F022D060080366C /* UINavigationItem+YXLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59046F181F022D060080366C /* UINavigationItem+YXLSwizzling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59046EE81F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10.Runtime Method Swizzling(黑魔法).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59046EEC1F010DD00080366C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59046EEE1F010DD00080366C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59046EEF1F010DD00080366C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59046EF11F010DD00080366C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59046EF21F010DD00080366C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59046EF51F010DD00080366C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59046EF71F010DD00080366C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59046EFA1F010DD00080366C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59046EFC1F010DD00080366C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59046F021F010E1D0080366C /* NSObject+YXLMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YXLMethodSwizzling.h"; sourceTree = "<group>"; };
+		59046F031F010E1D0080366C /* NSObject+YXLMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YXLMethodSwizzling.m"; sourceTree = "<group>"; };
+		59046F051F01EAD20080366C /* UIViewController+YXLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YXLExtension.h"; sourceTree = "<group>"; };
+		59046F061F01EAD20080366C /* UIViewController+YXLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YXLExtension.m"; sourceTree = "<group>"; };
+		59046F081F01EBF20080366C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		59046F091F01EBF20080366C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		59046F0E1F01F0290080366C /* NSMutableArray+YXLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+YXLSwizzling.h"; sourceTree = "<group>"; };
+		59046F0F1F01F0290080366C /* NSMutableArray+YXLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YXLSwizzling.m"; sourceTree = "<group>"; };
+		59046F111F0203550080366C /* UIButton+YXLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YXLSwizzling.h"; sourceTree = "<group>"; };
+		59046F121F0203550080366C /* UIButton+YXLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YXLSwizzling.m"; sourceTree = "<group>"; };
+		59046F141F0213B80080366C /* UILabel+YXLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YXLSwizzling.h"; sourceTree = "<group>"; };
+		59046F151F0213B80080366C /* UILabel+YXLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YXLSwizzling.m"; sourceTree = "<group>"; };
+		59046F171F022D060080366C /* UINavigationItem+YXLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+YXLSwizzling.h"; sourceTree = "<group>"; };
+		59046F181F022D060080366C /* UINavigationItem+YXLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+YXLSwizzling.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59046EE51F010DD00080366C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59046EDF1F010DCF0080366C = {
+			isa = PBXGroup;
+			children = (
+				59046EEA1F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法) */,
+				59046EE91F010DD00080366C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59046EE91F010DD00080366C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59046EE81F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59046EEA1F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法) */ = {
+			isa = PBXGroup;
+			children = (
+				59046EEE1F010DD00080366C /* AppDelegate.h */,
+				59046EEF1F010DD00080366C /* AppDelegate.m */,
+				59046EF11F010DD00080366C /* ViewController.h */,
+				59046EF21F010DD00080366C /* ViewController.m */,
+				59046F081F01EBF20080366C /* FirstViewController.h */,
+				59046F091F01EBF20080366C /* FirstViewController.m */,
+				59046F021F010E1D0080366C /* NSObject+YXLMethodSwizzling.h */,
+				59046F031F010E1D0080366C /* NSObject+YXLMethodSwizzling.m */,
+				59046F051F01EAD20080366C /* UIViewController+YXLExtension.h */,
+				59046F061F01EAD20080366C /* UIViewController+YXLExtension.m */,
+				59046F0E1F01F0290080366C /* NSMutableArray+YXLSwizzling.h */,
+				59046F0F1F01F0290080366C /* NSMutableArray+YXLSwizzling.m */,
+				59046F111F0203550080366C /* UIButton+YXLSwizzling.h */,
+				59046F121F0203550080366C /* UIButton+YXLSwizzling.m */,
+				59046F141F0213B80080366C /* UILabel+YXLSwizzling.h */,
+				59046F151F0213B80080366C /* UILabel+YXLSwizzling.m */,
+				59046F171F022D060080366C /* UINavigationItem+YXLSwizzling.h */,
+				59046F181F022D060080366C /* UINavigationItem+YXLSwizzling.m */,
+				59046EF41F010DD00080366C /* Main.storyboard */,
+				59046EF71F010DD00080366C /* Assets.xcassets */,
+				59046EF91F010DD00080366C /* LaunchScreen.storyboard */,
+				59046EFC1F010DD00080366C /* Info.plist */,
+				59046EEB1F010DD00080366C /* Supporting Files */,
+			);
+			path = "10.Runtime Method Swizzling(黑魔法)";
+			sourceTree = "<group>";
+		};
+		59046EEB1F010DD00080366C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59046EEC1F010DD00080366C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59046EE71F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59046EFF1F010DD00080366C /* Build configuration list for PBXNativeTarget "10.Runtime Method Swizzling(黑魔法)" */;
+			buildPhases = (
+				59046EE41F010DD00080366C /* Sources */,
+				59046EE51F010DD00080366C /* Frameworks */,
+				59046EE61F010DD00080366C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10.Runtime Method Swizzling(黑魔法)";
+			productName = "10.Runtime Method Swizzling(黑魔法)";
+			productReference = 59046EE81F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59046EE01F010DCF0080366C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yxl;
+				TargetAttributes = {
+					59046EE71F010DD00080366C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 59046EE31F010DCF0080366C /* Build configuration list for PBXProject "10.Runtime Method Swizzling(黑魔法)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59046EDF1F010DCF0080366C;
+			productRefGroup = 59046EE91F010DD00080366C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59046EE71F010DD00080366C /* 10.Runtime Method Swizzling(黑魔法) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59046EE61F010DD00080366C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59046EFB1F010DD00080366C /* LaunchScreen.storyboard in Resources */,
+				59046EF81F010DD00080366C /* Assets.xcassets in Resources */,
+				59046EF61F010DD00080366C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59046EE41F010DD00080366C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59046EF31F010DD00080366C /* ViewController.m in Sources */,
+				59046F0A1F01EBF20080366C /* FirstViewController.m in Sources */,
+				59046F101F01F0290080366C /* NSMutableArray+YXLSwizzling.m in Sources */,
+				59046EF01F010DD00080366C /* AppDelegate.m in Sources */,
+				59046F041F010E1D0080366C /* NSObject+YXLMethodSwizzling.m in Sources */,
+				59046F131F0203550080366C /* UIButton+YXLSwizzling.m in Sources */,
+				59046EED1F010DD00080366C /* main.m in Sources */,
+				59046F161F0213B80080366C /* UILabel+YXLSwizzling.m in Sources */,
+				59046F191F022D060080366C /* UINavigationItem+YXLSwizzling.m in Sources */,
+				59046F071F01EAD20080366C /* UIViewController+YXLExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59046EF41F010DD00080366C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59046EF51F010DD00080366C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59046EF91F010DD00080366C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59046EFA1F010DD00080366C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59046EFD1F010DD00080366C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59046EFE1F010DD00080366C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59046F001F010DD00080366C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "10.Runtime Method Swizzling(黑魔法)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newace.-0-Runtime-Method-Swizzling-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		59046F011F010DD00080366C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "10.Runtime Method Swizzling(黑魔法)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newace.-0-Runtime-Method-Swizzling-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59046EE31F010DCF0080366C /* Build configuration list for PBXProject "10.Runtime Method Swizzling(黑魔法)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59046EFD1F010DD00080366C /* Debug */,
+				59046EFE1F010DD00080366C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59046EFF1F010DD00080366C /* Build configuration list for PBXNativeTarget "10.Runtime Method Swizzling(黑魔法)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59046F001F010DD00080366C /* Debug */,
+				59046F011F010DD00080366C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59046EE01F010DCF0080366C /* Project object */;
+}
